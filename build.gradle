@@ -12,8 +12,8 @@ repositories {
 dependencies {
     implementation 'org.slf4j:slf4j-api:2.0.0-alpha5'
 
-    implementation 'org.slf4j:slf4j-simple:2.0.0-alpha5'
-//    implementation 'ch.qos.logback:logback-classic:1.3.0-alpha10'
+//    implementation 'org.slf4j:slf4j-simple:2.0.0-alpha5'
+    implementation 'ch.qos.logback:logback-classic:1.3.0-alpha10'
 
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'

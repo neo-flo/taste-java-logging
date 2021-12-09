@@ -1,5 +1,6 @@
 package com.example;
 
+import ch.qos.logback.classic.encoder.PatternLayoutEncoder;
 import org.slf4j.LoggerFactory;
 import org.slf4j.spi.LoggingEventBuilder;
 
@@ -15,20 +16,42 @@ import java.util.logging.Logger;
  */
 public class MyClass {
 	
-	
 	public static void main(String[] args) {
-		org.slf4j.Logger mySlf4jLogger = LoggerFactory.getLogger(MyClass.class);
+		org.slf4j.Logger myLogbackLogger = LoggerFactory.getLogger(MyClass.class);
 		
-		mySlf4jLogger.trace("This is TRACE level log");
-		mySlf4jLogger.debug("This is DEBUG level log");
-		mySlf4jLogger.info("This is INFO level log");
-		mySlf4jLogger.warn("This is WARN level log");
-		mySlf4jLogger.error("This is ERROR level log");
+		myLogbackLogger.trace("This is TRACE level log");
+		myLogbackLogger.debug("This is DEBUG level log");
+		myLogbackLogger.info("This is INFO level log");
+		myLogbackLogger.warn("This is WARN level log");
+		myLogbackLogger.error("This is ERROR level log");
 		
-		LoggingEventBuilder loggingEventBuilder = mySlf4jLogger.makeLoggingEventBuilder(org.slf4j.event.Level.WARN);
-		loggingEventBuilder.log("hello");
+		System.out.println("myLogbackLogger = " + myLogbackLogger);
+		System.out.println("myLogbackLogger.getClass() = " + myLogbackLogger.getClass());
+		System.out.println("myLogbackLogger.isTraceEnabled() = " + myLogbackLogger.isTraceEnabled());
 		
-		System.out.println("mySlf4jLogger.getClass() = " + mySlf4jLogger.getClass());
+		System.out.println("\n----------------------------------------\n");
+		
+		org.slf4j.Logger rootLogger = LoggerFactory.getLogger("ROOT");
+		
+		rootLogger.trace("This is TRACE level log");
+		rootLogger.debug("This is DEBUG level log");
+		rootLogger.info("This is INFO level log");
+		rootLogger.warn("This is WARN level log");
+		rootLogger.error("This is ERROR level log");
+		
+		System.out.println("rootLogger = " + rootLogger);
+		System.out.println("rootLogger.getClass() = " + rootLogger.getClass());
+		System.out.println("rootLogger.isTraceEnabled() = " + rootLogger.isTraceEnabled());
+		
+		System.out.println("\n----------------------------------------\n");
+		
+		org.slf4j.Logger customLayoutLogger = LoggerFactory.getLogger("CustomLayoutLogger");
+		
+		System.out.println("customLayoutLogger = " + customLayoutLogger);
+		System.out.println("customLayoutLogger.getClass() = " + customLayoutLogger.getClass());
+		System.out.println("customLayoutLogger.isTraceEnabled() = " + customLayoutLogger.isTraceEnabled());
+		
+		customLayoutLogger.error("Hello world!");
 	}
 	
 	public static void main2(String[] args) {
@@ -37,7 +60,7 @@ public class MyClass {
 		System.out.println("rootLogger.getName() = " + rootLogger.getName());
 		// RootLogger 의 parent 는 없다.
 		System.out.println("rootLogger.getParent() = " + rootLogger.getParent());
-
+		
 		rootLogger.setLevel(Level.ALL);
 		Handler[] rootLoggerHandlers = rootLogger.getHandlers();
 		for (Handler rootLoggerHandler : rootLoggerHandlers) {
@@ -45,21 +68,21 @@ public class MyClass {
 			System.out.println("rootLoggerHandler.getLevel() = " + rootLoggerHandler.getLevel());
 //			rootLoggerHandler.setLevel(Level.FINEST);
 		}
-
+		
 		Logger logger = Logger.getLogger("com.example.web");
 		System.out.println("logger.getParent() = " + logger.getParent());
 		System.out.println("logger.getParent().getName() = [" + logger.getParent().getName() + "]");
-
+		
 		ConsoleHandler handler = new ConsoleHandler();
 		handler.setLevel(Level.FINER);
 		logger.addHandler(handler);
-
+		
 		Handler[] handlers = logger.getHandlers();
 		for (Handler loggerHandler : handlers) {
 			System.out.println("loggerHandler = " + loggerHandler);
 			System.out.println("loggerHandler.getLevel() = " + loggerHandler.getLevel());
 		}
-
+		
 		logger.log(Level.ALL, "This is ALL level log");
 		logger.log(Level.FINEST, "This is FINEST level log");
 		logger.log(Level.FINER, "This is FINER level log");
@@ -69,7 +92,7 @@ public class MyClass {
 		logger.log(Level.WARNING, "This is WARNING level log");
 		logger.log(Level.SEVERE, "This is SEVERE level log");
 		logger.log(Level.OFF, "This is OFF level log");
-
+		
 		System.out.println("logger.getClass() = " + logger.getClass());
 	}
 	

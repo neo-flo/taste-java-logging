@@ -1,0 +1,224 @@
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063319481" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063324576" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063326149" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063689718" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063701261" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063703491" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063767762" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063774147" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063829148" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063836237" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063839831" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063848999" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063858192" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063916655" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063923244" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063935488" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063957389" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639063975467" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639064380255" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639064389548" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639064450569" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639064669712" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639065279930" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639065302220" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639065323794" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639065351149" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639065376853" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
+<log4j:event logger="CustomLayoutLogger"
+             timestamp="1639065380570" level="ERROR" thread="main">
+  <log4j:message>Hello world!</log4j:message>
+  <log4j:locationInfo class="com.example.MyClass"
+                      method="main" file="MyClass.java" line="54"/>
+
+</log4j:event>
+
